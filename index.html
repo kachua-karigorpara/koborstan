@@ -1,0 +1,270 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>কারিগরপাড়া কবরস্থান</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@600;800&family=Amiri:wght@400;700&display=swap">
+<style>
+/* Layout: quiet stone-toned page, calm hero with dua, dafan steps, visiting etiquette, rules, committee + maintenance fund */
+:root {
+  --bg: #f3f2ee;
+  --surface: #fbfaf7;
+  --fg: #1f2a26;
+  --muted: #5d6963;
+  --stone: #2c3a35;
+  --sage: #5f7d6e;
+  --sand: #e6e1d3;
+  --gold: #8f6d24;
+  --line: #d9d5c8;
+  --on-stone: #eef1ec;
+  --font-display: "Noto Serif Bengali", "Kalpurush", serif;
+  --font-body: "Hind Siliguri", "Noto Sans Bengali", system-ui, sans-serif;
+  --font-arabic: "Amiri", "Scheherazade New", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101614; --surface: #171f1c; --fg: #e5eae6; --muted: #9aa8a0;
+    --stone: #0b110f; --sage: #8fb09f; --sand: #1f2a25; --gold: #d9b45f;
+    --line: #26322d; --on-stone: #eef1ec; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101614; --surface: #171f1c; --fg: #e5eae6; --muted: #9aa8a0;
+  --stone: #0b110f; --sage: #8fb09f; --sand: #1f2a25; --gold: #d9b45f;
+  --line: #26322d; --on-stone: #eef1ec; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 17px; line-height: 1.75; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.4; margin: 0; text-wrap: balance; }
+p { margin: 0; }
+.wrap {
+  max-width: 1080px; margin-inline: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.kicker { font-size: 0.85rem; letter-spacing: 0.08em; color: var(--gold); font-weight: 600; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--stone); }
+
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 9; background: var(--stone); color: var(--on-stone); }
+.bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 10px; }
+.brand { font-family: var(--font-display); font-weight: 800; text-decoration: none; display: flex; align-items: center; gap: 10px; min-width: 0; }
+.nav { display: flex; gap: 2px; flex-wrap: wrap; justify-content: flex-end; }
+.nav a { text-decoration: none; padding: 6px 12px; border-radius: 6px; font-size: 0.95rem; }
+.nav a:hover { background: rgba(255,255,255,0.12); }
+@media (max-width: 760px) { .nav a:nth-child(n+4) { display: none; } }
+
+/* hero */
+.hero { background: var(--stone); color: var(--on-stone); }
+.hero .wrap { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; padding-block: 60px; }
+.hero .kicker { color: #d9b45f; }
+.hero h1 { font-size: clamp(2rem, 5vw, 3.3rem); font-weight: 800; margin-top: 10px; }
+.hero .lead { margin-top: 16px; max-width: 32em; color: color-mix(in srgb, var(--on-stone) 82%, transparent); font-size: 1.08rem; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+.btn { display: inline-block; text-decoration: none; padding: 11px 22px; border-radius: 8px; font-weight: 600; border: 2px solid transparent; cursor: pointer; font-family: inherit; font-size: 1rem; }
+.btn-sand { background: var(--sand); color: #1f2a26; }
+.btn-sand:hover { background: #fff; }
+.btn-line { border-color: rgba(255,255,255,0.4); color: var(--on-stone); }
+.btn-line:hover { background: rgba(255,255,255,0.12); }
+.dua { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.16); border-radius: 14px; padding: 26px 24px; min-width: 0; }
+.dua .ar { font-family: var(--font-arabic); font-size: clamp(1.4rem, 3.2vw, 1.8rem); line-height: 2.1; direction: rtl; text-align: center; }
+.dua .bn { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.16); color: color-mix(in srgb, var(--on-stone) 85%, transparent); font-size: 0.97rem; }
+.dua .src { margin-top: 8px; font-size: 0.82rem; color: #d9b45f; }
+@media (max-width: 860px) { .hero .wrap { grid-template-columns: 1fr; } }
+
+section { padding-block: 64px; }
+.sec-head { max-width: 40em; margin-bottom: 32px; }
+.sec-head h2 { font-size: clamp(1.6rem, 3.6vw, 2.2rem); margin-top: 6px; }
+.sec-head p { color: var(--muted); margin-top: 10px; }
+.alt { background: var(--surface); border-block: 1px solid var(--line); }
+
+/* about */
+.about { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+.about p + p { margin-top: 14px; }
+.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.fact { border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; background: var(--surface); min-width: 0; }
+.fact b { display: block; font-family: var(--font-display); font-size: 1.1rem; }
+.fact span { font-size: 0.9rem; color: var(--muted); }
+@media (max-width: 860px) { .about { grid-template-columns: 1fr; } }
+
+/* dafan steps */
+.steps { margin: 0; padding: 0; list-style: none; display: grid; gap: 0; border-top: 1px solid var(--line); counter-reset: s; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 56px 1fr; gap: 14px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.steps li::before { content: counter(s, bengali); font-family: var(--font-display); font-weight: 800; font-size: 1.6rem; color: var(--sage); line-height: 1.3; }
+.steps h3 { font-size: 1.1rem; }
+.steps p { color: var(--muted); font-size: 0.96rem; margin-top: 2px; }
+
+/* etiquette + rules */
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.panel { border: 1px solid var(--line); border-radius: 14px; padding: 26px; background: var(--bg); min-width: 0; }
+.alt .panel { background: var(--bg); }
+.panel h3 { font-size: 1.3rem; }
+.panel ul { margin: 14px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.panel li { display: grid; grid-template-columns: 22px 1fr; gap: 10px; font-size: 0.98rem; }
+.panel svg { margin-top: 6px; }
+.do svg { color: var(--sage); }
+.dont svg { color: #a2503f; }
+:root[data-theme="dark"] .dont svg { color: #e08a78; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .dont svg { color: #e08a78; } }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+
+/* band */
+.band { background: var(--stone); color: var(--on-stone); }
+.band .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.band .kicker { color: #d9b45f; }
+.band h2 { font-size: clamp(1.5rem, 3.2vw, 2rem); margin-top: 6px; }
+.band p { color: color-mix(in srgb, var(--on-stone) 85%, transparent); margin-top: 10px; }
+.acct { margin-top: 18px; border: 1px solid rgba(255,255,255,0.25); border-radius: 10px; padding: 16px 18px; display: grid; gap: 10px; }
+.acct div { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.acct span { color: #d9b45f; font-size: 0.9rem; }
+.band .btn-sand { margin-top: 14px; }
+.contact-list { margin: 18px 0 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+.contact-list li { display: grid; grid-template-columns: 96px 1fr; gap: 12px; }
+.contact-list span { color: #d9b45f; font-size: 0.9rem; }
+@media (max-width: 860px) { .band .cols { grid-template-columns: 1fr; } }
+footer { background: var(--stone); color: color-mix(in srgb, var(--on-stone) 70%, transparent); border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.9rem; }
+footer .wrap { padding-block: 20px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+@counter-style bengali { system: numeric; symbols: "০" "১" "২" "৩" "৪" "৫" "৬" "৭" "৮" "৯"; }
+</style>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="কারিগরপাড়া কবরস্থান, শুরুতে যান">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 28V13a8 8 0 0 1 16 0v15zM4 28h24"/></svg>
+      <span>কারিগরপাড়া কবরস্থান</span>
+    </a>
+    <nav class="nav" aria-label="প্রধান মেনু">
+      <a href="#about">পরিচিতি</a>
+      <a href="#dafan">দাফনের নিয়ম</a>
+      <a href="#ziyarat">যিয়ারত</a>
+      <a href="#rules">নিয়মাবলি</a>
+      <a href="#contact">যোগাযোগ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <p class="kicker">কচুয়া · কারিগরপাড়া</p>
+        <h1>কচুয়া কারিগরপাড়া কবরস্থান</h1>
+        <p class="lead">পাড়ার মুসলিম ভাই-বোনদের দাফনের জন্য সংরক্ষিত জায়গা। এখানে দাফনের নিয়ম, যিয়ারতের আদব, কবরস্থানের নিয়মাবলি ও কমিটির যোগাযোগ পাবেন।</p>
+        <div class="hero-actions">
+          <a class="btn btn-sand" href="#dafan">দাফনের জন্য যোগাযোগ</a>
+          <a class="btn btn-line" href="#ziyarat">যিয়ারতের আদব</a>
+        </div>
+      </div>
+      <figure class="dua" style="margin:0">
+        <p class="ar" lang="ar">السلام عليكم أهل الديار من المؤمنين والمسلمين، وإنا إن شاء الله بكم لاحقون، نسأل الله لنا ولكم العافية</p>
+        <p class="bn">হে এই ঘরের মুমিন ও মুসলিম অধিবাসীরা, আপনাদের উপর শান্তি বর্ষিত হোক। ইনশাআল্লাহ আমরাও আপনাদের সাথে মিলিত হব। আমরা আল্লাহর কাছে আমাদের ও আপনাদের জন্য নিরাপত্তা চাই।</p>
+        <p class="src">কবর যিয়ারতের দোয়া (সহিহ মুসলিম)</p>
+      </figure>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap about">
+      <div>
+        <p class="kicker">কবরস্থান পরিচিতি</p>
+        <h2 style="font-size:clamp(1.6rem,3.6vw,2.2rem);margin-top:6px">স্থানীয় মানুষের সম্মিলিত আমানত</h2>
+        <p style="margin-top:16px">কারিগরপাড়া কবরস্থান কমিটির তত্ত্বাবধানে পরিচালিত হয়। জায়গার সীমানা রক্ষা, ঝোপঝাড় পরিষ্কার, পথ ও পানির ব্যবস্থা কমিটি ও স্বেচ্ছাসেবকদের সহযোগিতায় চলে।</p>
+        <p>দাফন ও যিয়ারতে সবাইকে শরিয়তের নিয়ম মেনে চলতে এবং স্থানের মর্যাদা রক্ষা করতে অনুরোধ করা হয়।</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>অবস্থান</b><span>কারিগরপাড়া, কচুয়া। সঠিক ঠিকানা যোগ করুন</span></div>
+        <div class="fact"><b>মোট জমির পরিমাণ</b><span>দলিল অনুযায়ী যোগ করুন</span></div>
+        <div class="fact"><b>পরিচালনা</b><span>কবরস্থান কমিটি</span></div>
+        <div class="fact"><b>গেট খোলা</b><span>সূর্যোদয় থেকে সূর্যাস্ত</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dafan" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker">দাফনের নিয়ম</p>
+        <h2>কেউ ইন্তেকাল করলে যা করবেন</h2>
+        <p>দ্রুত কমিটিকে জানান। শরিয়তের বিধান অনুযায়ী যত তাড়াতাড়ি সম্ভব দাফন করা উত্তম।</p>
+      </div>
+      <ol class="steps">
+        <li><div><h3>কমিটিকে জানান</h3><p>নিচের নম্বরে ফোন করে মৃত ব্যক্তির নাম, ইন্তেকালের সময় ও জানাজার সম্ভাব্য সময় জানান।</p></div></li>
+        <li><div><h3>গোসল ও কাফন</h3><p>মসজিদ কমিটি অভিজ্ঞ ব্যক্তির মাধ্যমে গোসল ও কাফনের ব্যবস্থায় সহায়তা করে।</p></div></li>
+        <li><div><h3>কবর খনন</h3><p>পরিবার জানানোর পর কমিটি স্থান নির্ধারণ করে। কবর কিবলামুখী করে খনন করা হয়।</p></div></li>
+        <li><div><h3>জানাজার নামাজ</h3><p>মসজিদ বা ঈদগাহ ময়দানে জানাজা পড়া হয়। ইমামের সাথে সময় ঠিক করে নিন।</p></div></li>
+        <li><div><h3>দাফন ও দোয়া</h3><p>দাফন শেষে সবাই কিছুক্ষণ দাঁড়িয়ে মাগফিরাতের দোয়া করেন।</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="ziyarat">
+    <div class="wrap two">
+      <div class="panel do">
+        <p class="kicker">যিয়ারতের আদব</p>
+        <h3>কবর যিয়ারতে যা করবেন</h3>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg><span>কবরস্থানে ঢুকে সালাম দিন এবং পাশের দোয়াটি পড়ুন।</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg><span>কিবলামুখী হয়ে মৃতদের জন্য মাগফিরাতের দোয়া করুন।</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg><span>নিচু স্বরে কথা বলুন এবং মৃত্যুকে স্মরণ করুন।</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg><span>কবর বাদ দিয়ে নির্ধারিত পথ ধরে হাঁটুন।</span></li>
+        </ul>
+      </div>
+      <div class="panel dont" id="rules">
+        <p class="kicker">নিয়মাবলি</p>
+        <h3>কবরস্থানে যা করা যাবে না</h3>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>কবরের উপর বসা, হাঁটা বা পা রাখা।</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>কবর পাকা করা, ফুল বা বাতি দেওয়া এবং কবরে লেখা বা ফলক বসানো।</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>উচ্চস্বরে কান্নাকাটি, মাইক বা গান বাজানো।</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>ময়লা ফেলা, গরু-ছাগল ছাড়া এবং গাছ কাটা। কমিটির অনুমতি ছাড়া কোনো নির্মাণ নয়।</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="band">
+    <div class="wrap cols">
+      <div>
+        <p class="kicker">রক্ষণাবেক্ষণ তহবিল</p>
+        <h2>কবরস্থানের যত্নে অংশ নিন</h2>
+        <p>দান কবরস্থানের সীমানা প্রাচীর, পথ, পানি, পরিচ্ছন্নতা ও কবর খননের সরঞ্জাম কেনায় ব্যয় হয়।</p>
+        <div class="acct">
+          <div><span>বিকাশ / নগদ (পার্সোনাল)</span><b id="payNo">০১XXX-XXXXXX</b></div>
+          <div><span>হিসাবধারী</span><b>কবরস্থান কমিটির কোষাধ্যক্ষ</b></div>
+        </div>
+        <button class="btn btn-sand" id="copyBtn" type="button">নম্বর কপি করুন</button>
+      </div>
+      <div>
+        <p class="kicker">যোগাযোগ</p>
+        <h2>কবরস্থান কমিটি</h2>
+        <ul class="contact-list">
+          <li><span>ঠিকানা</span><b>কারিগরপাড়া, কচুয়া</b></li>
+          <li><span>সভাপতি</span><b>০১XXX-XXXXXX</b></li>
+          <li><span>সম্পাদক</span><b>০১XXX-XXXXXX</b></li>
+          <li><span>জরুরি দাফন</span><b>০১XXX-XXXXXX (২৪ ঘণ্টা)</b></li>
+        </ul>
+        <p>নম্বর ও ঠিকানা কমিটির সঠিক তথ্য দিয়ে বদলে নিন।</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© কচুয়া কারিগরপাড়া কবরস্থান কমিটি</span>
+    <span>আল্লাহ মরহুমদের মাগফিরাত করুন। আমিন।</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var btn = document.getElementById("copyBtn"), no = document.getElementById("payNo");
+  btn.addEventListener("click", function () {
+    var done = function () { btn.textContent = "কপি হয়েছে"; setTimeout(function () { btn.textContent = "নম্বর কপি করুন"; }, 1800); };
+    var sel = function () { var r = document.createRange(); r.selectNodeContents(no); var s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+    try { navigator.clipboard.writeText(no.textContent).then(done, sel); } catch (e) { sel(); }
+  });
+})();
+</script>
+
+</body></html>
